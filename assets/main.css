@@ -19,6 +19,7 @@ body {
     justify-content: center;
     height: 100dvh;
     gap: 2rem;
+    padding: 1rem;
 }
 
 h1 {
