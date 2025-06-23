@@ -39,7 +39,8 @@ h1 {
 }
 
 .search-form input[type="text"] {
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     font-size: inherit;
     border: none;
     background: none;
