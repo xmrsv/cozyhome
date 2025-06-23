@@ -26,6 +26,10 @@ h1 {
     font-weight: 600;
 }
 
+.weather-placeholder {
+    text-align: center;
+}
+
 .search-form {
     display: flex;
     justify-content: space-between;
