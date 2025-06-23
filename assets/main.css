@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: hsl(0, 0%, 10%);
+    color: hsl(0, 0%, 80%);
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+    gap: 2rem;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+.search-form {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 9rem;
+    padding: 1rem;
+    border: 1px solid hsl(0, 0%, 80%)
+}
+
+.search-form input[type="text"] {
+    width: 300px;
+    font-size: inherit;
+    border: none;
+    background: none;
+    color: inherit;
+}
+
+.search-form input[type="text"]:focus {
+    outline: none;
+}
+
+.search-form .search-button {
+    display: grid;
+    place-items: center;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+}
